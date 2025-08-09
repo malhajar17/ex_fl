@@ -15,6 +15,18 @@
             "response": "accepted_completion"
         }
     },
+    "agri-fr": {
+        "hf_hub_url": "legmlai/agriculture-pretraining-v2_add_lang_token_filtered",
+        "columns": {
+            "prompt": "text"
+          }
+    },
+    "finance-pt-fr": {
+        "hf_hub_url": "legmlai/finance_pretraining_v2",
+        "columns": {
+            "prompt": "text"
+          }
+    },
     "openhermes-fr-prefetched": {
         "hf_hub_url": "/input/openhermes-fr",
         "columns": {
