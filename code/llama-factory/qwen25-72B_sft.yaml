@@ -1,6 +1,5 @@
----
 ### model
-model_name_or_path: openai/gpt-oss-20b
+model_name_or_path: openai/gpt-oss-120b
 trust_remote_code: true
 
 ### method
