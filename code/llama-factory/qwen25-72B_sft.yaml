@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: openai/gpt-oss-120b
+model_name_or_path: Qwen/Qwen2.5-72B
 trust_remote_code: true
 
 ### method
@@ -11,7 +11,7 @@ deepspeed: code/llama-factory/ds_z3_config.json
 ### dataset
 dataset: finance-pt-fr
 dataset_dir: code/llama-factory/data
-template: gpt
+template: qwen
 cutoff_len: 10000
 overwrite_cache: true
 preprocessing_num_workers: 16
