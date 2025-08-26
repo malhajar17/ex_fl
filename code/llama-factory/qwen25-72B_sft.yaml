@@ -23,6 +23,8 @@ logging_steps: 10
 save_steps: 500
 plot_loss: true
 overwrite_output_dir: true
+save_only_model: True
+save_total_limit: 2
 report_to: none  # choices: [none, wandb, tensorboard, swanlab, mlflow]
 
 ### train
@@ -35,8 +37,7 @@ warmup_ratio: 0.1
 bf16: true
 ddp_timeout: 180000000
 resume_from_checkpoint:
-save_only_model: True
-save_total_limit: 2
+
 
 ### eval
 # eval_dataset: alpaca_en_demo
