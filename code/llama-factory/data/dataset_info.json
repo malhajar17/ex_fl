@@ -21,8 +21,15 @@
             "prompt": "text"
           }
     },
+    
     "finance-pt-fr": {
         "hf_hub_url": "legmlai/finance_pretraining_v2",
+        "columns": {
+            "prompt": "text"
+          }
+    },
+    "iplaw-pt-du": {
+        "hf_hub_url": "legmlai/legal-Dutch-ip-pretraining-v0.1",
         "columns": {
             "prompt": "text"
           }

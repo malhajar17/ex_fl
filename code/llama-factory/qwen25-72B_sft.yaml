@@ -9,10 +9,10 @@ finetuning_type: full
 deepspeed: code/llama-factory/ds_z3_config.json
 
 ### dataset
-dataset: finance-pt-fr
+dataset: iplaw-pt-du
 dataset_dir: code/llama-factory/data
 template: qwen
-cutoff_len: 10000
+cutoff_len: 15000
 overwrite_cache: true
 preprocessing_num_workers: 16
 dataloader_num_workers: 4
