@@ -36,6 +36,8 @@ warmup_ratio: 0.1
 bf16: true
 ddp_timeout: 180000000
 resume_from_checkpoint:
+save_only_model: True
+save_total_limit: 2
 
 ### eval
 # eval_dataset: alpaca_en_demo
