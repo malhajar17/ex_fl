@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: Qwen/Qwen2.5-72B
+model_name_or_path: Qwen/Qwen3-30B-A3B-Thinking-2507
 trust_remote_code: true
 
 ### method
@@ -9,7 +9,7 @@ finetuning_type: full
 deepspeed: code/llama-factory/ds_z3_config.json
 
 ### dataset
-dataset: iplaw-pt-du
+dataset: finance-pt-fr
 dataset_dir: code/llama-factory/data
 template: qwen
 cutoff_len: 10000
@@ -36,7 +36,7 @@ lr_scheduler_type: cosine
 warmup_ratio: 0.1
 bf16: true
 ddp_timeout: 180000000
-resume_from_checkpoint: /input-checkpoint
+resume_from_checkpoint: 
 
 
 ### eval
