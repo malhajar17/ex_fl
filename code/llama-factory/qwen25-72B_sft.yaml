@@ -9,7 +9,7 @@ finetuning_type: full
 deepspeed: code/llama-factory/ds_z3_config.json
 
 ### dataset
-dataset: finance-pt-fr
+dataset: iplaw-pt-du
 dataset_dir: code/llama-factory/data
 template: qwen
 cutoff_len: 10000
@@ -31,7 +31,7 @@ report_to: none  # choices: [none, wandb, tensorboard, swanlab, mlflow]
 per_device_train_batch_size: 1
 gradient_accumulation_steps: 2
 learning_rate: 1.0e-5
-num_train_epochs: 1.0
+num_train_epochs: 2.0
 lr_scheduler_type: cosine
 warmup_ratio: 0.1
 bf16: true
