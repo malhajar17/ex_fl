@@ -8,6 +8,10 @@
     "wikitext": {
         "file_name": "/input/hf-wikitext/wikitext-2-raw-v1"
     },
+    "dutch-ip-law-sft": {
+        "hf_hub_url": "legmlai/Dutch-ip-shargpt-ready",
+        "formatting": "sharegpt"
+      },
     "openhermes-fr": {
         "hf_hub_url": "legmlai/openhermes-fr",
         "columns": {
