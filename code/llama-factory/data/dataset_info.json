@@ -10,7 +10,10 @@
     },
     "dutch-ip-law-sft": {
         "hf_hub_url": "legmlai/Dutch-ip-shargpt-ready",
-        "formatting": "sharegpt"
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "conversations"
+          }
       },
     "openhermes-fr": {
         "hf_hub_url": "legmlai/openhermes-fr",
