@@ -1,15 +1,15 @@
 ### model
-model_name_or_path: legmlai/dutch-ip-pt-1-epoch
+model_name_or_path: /input-checkpoint
 trust_remote_code: true
 
 ### method
-stage: sft
+stage: pt
 do_train: true
 finetuning_type: full
 deepspeed: code/llama-factory/ds_z3_config.json
 
 ### dataset
-dataset: dutch-ip-law-sft
+dataset: insurance-fr
 dataset_dir: code/llama-factory/data
 template: qwen
 cutoff_len: 10000
@@ -36,7 +36,7 @@ lr_scheduler_type: cosine
 warmup_ratio: 0.1
 bf16: true
 ddp_timeout: 180000000
-resume_from_checkpoint: 
+resume_from_checkpoint: /input-checkpoint
 
 
 ### eval
