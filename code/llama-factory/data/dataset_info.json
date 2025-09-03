@@ -29,7 +29,7 @@
           }
     },
     "insurance-fr": {
-        "hf_hub_url": "legmlai/insurance_evaluated_chunks_is_valid_sorted_gap2_merged",
+        "hf_hub_url": "legmlai/insurance-fr-pretraining-v0.1",
         "columns": {
             "prompt": "chunk"
           }
