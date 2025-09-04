@@ -1,15 +1,15 @@
 ### model
-model_name_or_path: Qwen/Qwen2.5-72B
+model_name_or_path: legmlai/dutch-ip-pt-1-epoch
 trust_remote_code: true
 
 ### method
-stage: pt
+stage: sft
 do_train: true
 finetuning_type: full
 deepspeed: code/llama-factory/ds_z3_config.json
 
 ### dataset
-dataset: insurance-fr
+dataset: dutch-ip-law-sft
 dataset_dir: code/llama-factory/data
 template: qwen
 cutoff_len: 10000
