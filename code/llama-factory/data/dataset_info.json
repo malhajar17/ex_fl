@@ -15,6 +15,7 @@
             "messages": "conversations"
           }
       },
+      
     "openhermes-fr": {
         "hf_hub_url": "legmlai/openhermes-fr",
         "columns": {
@@ -24,6 +25,12 @@
     },
     "agri-fr": {
         "hf_hub_url": "legmlai/agriculture-pretraining-v2_add_lang_token_filtered",
+        "columns": {
+            "prompt": "text"
+          }
+    },
+    "finefrench-fr": {
+        "hf_hub_url": "malhajar/finefrench",
         "columns": {
             "prompt": "text"
           }
