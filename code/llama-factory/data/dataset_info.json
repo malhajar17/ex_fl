@@ -23,6 +23,13 @@
             "response": "accepted_completion"
         }
     },
+    "insur-fr-sft": {
+        "hf_hub_url": "legmlai/France-insure-shargpt-v1-ready",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "conversations"
+          }
+    },
     "agri-fr": {
         "hf_hub_url": "legmlai/agriculture-pretraining-v2_add_lang_token_filtered",
         "columns": {
