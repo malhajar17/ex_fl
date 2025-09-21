@@ -15,6 +15,13 @@
             "messages": "conversations"
           }
       },
+      "dutch-ip-law-sft-v2": {
+        "hf_hub_url": "legmlai/dutch-ip-v2-sharegpt-ready",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "answer_sharegpt"
+          }
+      },
       
     "openhermes-fr": {
         "hf_hub_url": "legmlai/openhermes-fr",
