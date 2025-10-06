@@ -16,7 +16,7 @@
           }
       },
       "dutch-ip-law-sft-v2": {
-        "hf_hub_url": "legmlai/dutch-ip-v2-sharegpt-ready",
+        "hf_hub_url": "legmlai/dutch-ip-v3-sharegpt-ready",
         "formatting": "sharegpt",
         "columns": {
             "messages": "answer_sharegpt"
