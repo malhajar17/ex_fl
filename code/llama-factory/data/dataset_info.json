@@ -43,6 +43,12 @@
             "prompt": "text"
           }
     },
+    "insur-fr-v2": {
+        "hf_hub_url": "legmlai/insurance_processed_gemini_all_final",
+        "columns": {
+            "prompt": "text"
+          }
+    },
     "finefrench-fr": {
         "hf_hub_url": "malhajar/finefrench",
         "columns": {
