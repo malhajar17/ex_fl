@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: insur-fr-v2
+model_name_or_path: Qwen/Qwen2.5-72B
 trust_remote_code: true
 
 ### method
@@ -9,7 +9,7 @@ finetuning_type: full
 deepspeed: code/llama-factory/ds_z3_config.json
 
 ### dataset
-dataset: dutch-ip-law-sft-v2
+dataset: insur-fr-v2
 dataset_dir: code/llama-factory/data
 template: qwen
 cutoff_len: 10000
