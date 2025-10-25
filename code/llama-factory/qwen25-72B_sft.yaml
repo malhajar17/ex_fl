@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: Qwen/Qwen2.5-14B
+model_name_or_path: Qwen/Qwen2.5-32B
 trust_remote_code: true
 
 ### method
@@ -9,7 +9,7 @@ finetuning_type: full
 deepspeed: code/llama-factory/ds_z3_config.json
 
 ### dataset
-dataset: insur-fr-v2
+dataset: iplaw-pt-du
 dataset_dir: code/llama-factory/data
 template: qwen
 cutoff_len: 10000
@@ -28,7 +28,7 @@ save_total_limit: 2
 report_to: none  # choices: [none, wandb, tensorboard, swanlab, mlflow]
 
 ### train
-per_device_train_batch_size: 2
+per_device_train_batch_size: 1
 gradient_accumulation_steps: 2
 learning_rate: 1.0e-5
 num_train_epochs: 2.0
