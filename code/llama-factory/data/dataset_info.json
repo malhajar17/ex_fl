@@ -22,13 +22,23 @@
             "messages": "answer_sharegpt"
           }
       },
-    "dutch-ip-law-sft-v4": {
-        "hf_hub_url": "legmlai/dutch-ip-sft-v4",
-        "formatting": "sharegpt",
-        "columns": {
-            "messages": "Gen_Reasoning"
+        "dutch-ip-law-sft-v4": {
+          "hf_hub_url": "legmlai/dutch-ip-sft-v4",
+          "formatting": "sharegpt",
+          "columns": {
+            "messages": "Gen_Reasoning",
+            "system": "Gen_Reasoning"  
+          },
+          "tags": {
+            "role_tag": "from",
+            "content_tag": "value",
+            "user_tag": "user",
+            "assistant_tag": "assistant",
+            "observation_tag": "observation",
+            "function_tag": "function",
+            "system_tag": "system"
           }
-      },
+        },
     "openhermes-fr": {
         "hf_hub_url": "legmlai/openhermes-fr",
         "columns": {
