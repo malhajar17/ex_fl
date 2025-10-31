@@ -39,6 +39,16 @@
             "system_tag": "system"
           }
         },
+        
+            "dutch-ip-pretokenized": {
+              "hf_hub_url": "legmlai/dutch-ip-sft-v4-tokenized",
+              "formatting": "sharegpt",
+              "columns": {
+                "input_ids": "input_ids",
+                "attention_mask": "attention_mask",
+                "labels": "labels"
+              }
+            },  
     "openhermes-fr": {
         "hf_hub_url": "legmlai/openhermes-fr",
         "columns": {
