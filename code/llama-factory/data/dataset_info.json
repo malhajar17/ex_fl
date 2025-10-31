@@ -22,7 +22,13 @@
             "messages": "answer_sharegpt"
           }
       },
-      
+    "dutch-ip-law-sft-v4": {
+        "hf_hub_url": "legmlai/dutch-ip-sft-v4",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "Gen_Reasoning"
+          }
+      },
     "openhermes-fr": {
         "hf_hub_url": "legmlai/openhermes-fr",
         "columns": {

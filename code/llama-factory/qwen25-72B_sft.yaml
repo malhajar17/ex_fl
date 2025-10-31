@@ -9,10 +9,10 @@ finetuning_type: full
 deepspeed: code/llama-factory/ds_z3_config.json
 
 ### dataset
-dataset: insur-fr-sft
+dataset: dutch-ip-law-sft-v4
 dataset_dir: code/llama-factory/data
 template: qwen
-cutoff_len: 10000
+cutoff_len: 50000
 overwrite_cache: true
 preprocessing_num_workers: 16
 dataloader_num_workers: 4
