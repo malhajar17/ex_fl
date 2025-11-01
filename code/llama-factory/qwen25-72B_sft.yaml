@@ -16,7 +16,7 @@ cutoff_len: 30000
 overwrite_cache: true
 preprocessing_num_workers: 16
 dataloader_num_workers: 4
-tokenized_path: /input
+tokenized_path: /input/tokenized-dutch-v4-hf
 
 ### output
 output_dir: /output-checkpoint
