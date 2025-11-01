@@ -9,14 +9,13 @@ finetuning_type: full
 deepspeed: code/llama-factory/ds_z3_config.json
 
 ### dataset
-dataset: dutch-ip-law-sft-v4
+dataset: dutch-ip-law-sft-v4-no-fc
 dataset_dir: code/llama-factory/data
 template: qwen
-cutoff_len: 30000
+cutoff_len: 10000
 overwrite_cache: true
 preprocessing_num_workers: 16
 dataloader_num_workers: 4
-tokenized_path: /input/tokenized-dutch-v4-hf
 
 ### output
 output_dir: /output-checkpoint
