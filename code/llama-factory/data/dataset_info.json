@@ -34,6 +34,15 @@
         "formatting": "sharegpt",
         "columns": {
             "messages": "Gen_Reasoning"
+          },
+          "tags": {
+            "role_tag": "from",
+            "content_tag": "value",
+            "user_tag": "user",
+            "assistant_tag": "gpt",
+            "observation_tag": "observation",
+            "function_tag": "function_call",
+            "system_tag": "system"
           }
       },
         "dutch-ip-law-sft-v4": {
