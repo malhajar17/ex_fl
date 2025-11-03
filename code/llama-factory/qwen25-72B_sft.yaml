@@ -9,7 +9,7 @@ finetuning_type: full
 deepspeed: code/llama-factory/ds_z3_config.json
 
 ### dataset
-dataset: dutch-ip-law-sft-v4-no-fc
+dataset: dutch-ip-law-sft-v5
 dataset_dir: code/llama-factory/data
 template: qwen
 cutoff_len: 10000

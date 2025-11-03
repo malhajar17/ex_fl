@@ -29,6 +29,13 @@
             "messages": "Gen_Reasoning"
           }
       },
+      "dutch-ip-law-sft-v5": {
+        "hf_hub_url": "legmlai/dutch-ip-sft-v5-merged",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "Gen_Reasoning"
+          }
+      },
         "dutch-ip-law-sft-v4": {
           "hf_hub_url": "legmlai/dutch-ip-sft-v4",
           "formatting": "sharegpt",
