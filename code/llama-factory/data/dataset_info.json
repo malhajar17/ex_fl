@@ -26,7 +26,7 @@
         "hf_hub_url": "legmlai/dutch-ip-sft-v5-embedded",
         "formatting": "sharegpt",
         "columns": {
-            "messages": "answer_sharegpt"
+            "messages": "Gen_Reasoning"
           }
       },
       "dutch-ip-law-sft-v4-no-fc": {
