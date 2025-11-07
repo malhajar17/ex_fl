@@ -22,27 +22,18 @@
             "messages": "answer_sharegpt"
           }
       },
+      "dutch-ip-law-sft-v5": {
+        "hf_hub_url": "legmlai/dutch-ip-sft-v5-embedded",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "answer_sharegpt"
+          }
+      },
       "dutch-ip-law-sft-v4-no-fc": {
         "hf_hub_url": "legmlai/dutch-ip-sft-v4-no-fc",
         "formatting": "sharegpt",
         "columns": {
             "messages": "Gen_Reasoning"
-          }
-      },
-      "dutch-ip-law-sft-v5": {
-        "hf_hub_url": "legmlai/dutch-ip-sft-v5-merged",
-        "formatting": "sharegpt",
-        "columns": {
-            "messages": "Gen_Reasoning"
-          },
-          "tags": {
-            "role_tag": "from",
-            "content_tag": "value",
-            "user_tag": "user",
-            "assistant_tag": "gpt",
-            "observation_tag": "observation",
-            "function_tag": "function_call",
-            "system_tag": "system"
           }
       },
         "dutch-ip-law-sft-v4": {
