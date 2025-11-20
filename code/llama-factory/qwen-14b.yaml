@@ -9,7 +9,7 @@ finetuning_type: full
 deepspeed: code/llama-factory/ds_z3_config.json
 
 ### dataset
-dataset: identity
+dataset: fineweb-fr
 dataset_dir: code/llama-factory/data
 template: qwen
 cutoff_len: 10000
