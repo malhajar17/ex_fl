@@ -109,6 +109,12 @@
             "prompt": "text"
           }
     },
+    "fineweb-fr": {
+        "hf_hub_url": "legmlai/finefrench-v1",
+        "columns": {
+            "prompt": "text"
+          }
+    },
     "openhermes-fr-prefetched": {
         "hf_hub_url": "/input/openhermes-fr",
         "columns": {
